@@ -15,8 +15,7 @@
 
 ### Demo Preview
 
-![umbrella](https://user-images.githubusercontent.com/98286699/183673304-eebc0f76-fa11-4461-926b-9258a3ada387.png)
-
+![password](https://user-images.githubusercontent.com/98286699/211243033-e4bc854c-c0f3-4bc9-ae0b-264275bd0cdb.png)
 ### Install Tutorial
 
 Before you begin, ensure you have met the following requirements:
