@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <h1 id="title">Łamacz Haseł 🔓</h1>
+        <span id="switch-style">🌙</span>
+        <form>
+            <label for="haslo" class="haslo">Hasło</label><br>
+            <input type="text" id="password" name="password" value=""><br>
+            <label for="wynik" class="wynik">Wynik:</label><br>
+            <input type="text" id="result" name="result" value="">
+            <div class="checkbox">
+            <div class="decrypt checkbox"></div>
+            <input type="checkbox" name="decrypt" id="decrypt"><p>Deszyfracja</p>
+        <div class="encrypt checkbox"> </div>
+            <input type="checkbox" name="encrypt" id="encrypt"><p>Szyfracja</p>
+        </div>
+            <button type="submit" id="button">Uruchom</button>
+            <p class="undertext">Masz jakieś pytania?<a href="#">Odwiedź FAQ</a></p>
+          </form> 
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
